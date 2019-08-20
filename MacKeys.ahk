@@ -22,6 +22,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 !d::Send ^d
 !f::Send ^f
 !h::Send ^h
+!r::Send ^r
 
 ; Mimic Finder by opening Windows menu
 !Space::Send ^{Esc}
